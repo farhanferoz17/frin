@@ -20,5 +20,5 @@ app_name = 'main' # here for namespacing of urls
 
 urlpatterns = [
     url("", views.homepage, name="homepage"),
-    url(r'^register/$', views.register, name="register"),
+    url("/login", views.login, name="login"),
 ]
