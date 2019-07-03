@@ -21,7 +21,8 @@ app_name = 'main' # here for namespacing of urls
 
 urlpatterns = [
     path('', views.homepage, name='homepage'),
-    path('signup/', views.signup, name='signup'),
-    path('login/', views.login, name='login'),
-    path('Controller/View/', views.upload, name='login'),
+    path('signup/', views.signup, name='signuppage'),
+    path('login/', views.loginpage, name='loginpage'),
+    path('homein/', views.homeinpage, name='homeinpage'),
+    path('profile/', views.profilepage, name='profilepage'),
 ]

@@ -1,0 +1,107 @@
+
+
+{% load staticfiles %}
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+<title>Frin Your Profile</title>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+
+<link href="{% static 'css/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'css/style_home.css' %}" rel="stylesheet">
+<!-- //Custom Theme files -->
+<!-- web font -->
+
+<!-- //web font -->
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><font size="6">Frin</font></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/homein"><font size="4">Home</font>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><font size="4">About</font></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/profile"><font size="4">Profile</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/"><font size="4">LogOut</font></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <br><br><br><br><br>
+      <div class="row">
+          <div class="col-xs-12 col-sm-12">
+              <div class="well well-sm">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-4">
+                          <img src="{% static 'img/farhan.jpg' %}" alt="" class="img-rounded img-responsive" />
+                      </div>
+                      <div class="col-sm-6 col-md-8">
+                          <h1>
+                              Farhan Feroz</h1>
+                          <small><cite title="Dhaka, Bangladesh"><font size="2">Dhaka, Bangladesh </font><i class="glyphicon glyphicon-map-marker">
+                          </i></cite></small>
+                          <p>
+                              <i class="glyphicon glyphicon-envelope"></i><font size="2">farhanferoz17@gmail.com</font>
+                              <br />
+                              <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com"><font size="2">www.jquery2dotnet.com</font></a>
+                              <br />
+                              <i class="glyphicon glyphicon-gift"></i><font size="2">February 18, 1997</font></p>
+                          <!-- Split button -->
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-primary">
+                                  <font size="4">Social</font></button>
+                              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                              </button>
+                              <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Twitter</a></li>
+                                  <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                  <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">Github</a></li>
+                              </ul>
+                          </div>
+			  <div align="right"> <br><br><br><br><br><br><br><br><br><br><br><br>
+			    <button type="button" class="btn btn-primary">
+                                  <font size="4">Edit Profile</font></button>
+  			  </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Frin Temp Home Page</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'css/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style_home.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Frin</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">LogOut</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">English Text Corrector</h1>
+          <p class="lead mb-5 text-white-50">Get your text corrected by using Frin while you write on Gmail, Facebook, Twitter and all your other favourite sites.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>What We Do</h2>
+        <hr>
+        <p>We provide you a platform for automatically detecting and correcting grammatical errors present in your writings so that you communicate well with the world.</p>
+        <p>We also made arrangements of quizzes for you based on your mistakes, which will help you overcome your mistakes more efficiently.</p>
+        <a class="btn btn-primary btn-lg" href="#">Get Started &raquo;</a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>Frin</strong>
+          <br>Room 110, Dr. M. A. Rashid Hall
+          <br>BUET, Dhaka
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">Phone:</abbr>
+          019-69679300
+          <br>
+          <abbr title="Email">Email:</abbr>
+          <a href="mailto:#">farhanferoz17@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'img/Grammarly-review-logo-cover-image.png' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Grammarly</h4>
+            <p class="card-text">From grammar and spelling to style and tone, Grammarly helps you eliminate errors and find the perfect words to express yourself.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'img/grammopolis.jpg' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Grammaropolis Complete</h4>
+            <p class="card-text">Learners of all ages will enjoy this “city of grammar” that teaches parts of speech. It’s designed like a game – each part of speech has its own town. As they navigate a map of the city, users complete activities designed to teach and test knowledge. Extra quizzes are available for additional practice.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{% static 'img/grammer_guide.png' %}" alt="">
+          <div class="card-body">
+            <h4 class="card-title">English Grammar Guide</h4>
+            <p class="card-text">If you’re not sure where to start, English Grammar Guide offers a little of everything. Watch tutorials, try practice exercises and have fun with grammar games. Every aspect of grammar is covered and there are 200 learning options. It’s no wonder this app is the best-selling grammar app on the App store.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'css/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'css/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
